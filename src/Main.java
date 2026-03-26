@@ -1,13 +1,8 @@
 public class Main{
     public static void main(String[] args) {
         
-        MusicBox mbox = new MusicBox("S34TG65", 'Y', "Raindrops", "Misty", 
-        "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
-
-        PlaySongs playsong = new PlaySongs();
-        
-        playsong.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
-
+        AdminPanel adminPanel = new AdminPanel();
+        adminPanel.userManagementOptions();
         
         // --- TODO
 
